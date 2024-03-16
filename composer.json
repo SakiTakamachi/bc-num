@@ -1,0 +1,20 @@
+{
+    "name": "bc-num/bc-num",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BcNum\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saki Takamachi",
+            "email": "saki@sakiot.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-bcmath": "*"
+    }
+}
